@@ -1,6 +1,6 @@
 {
   "name": "@ameen-nexus/validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Laravel-like validation library for React (TypeScript)",
   "main": "./dist/index.cjs",

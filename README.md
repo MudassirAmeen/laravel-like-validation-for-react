@@ -28,7 +28,7 @@ npm install @ameen-nexus/validator
 ### Core Validation
 
 ```typescript
-import { validateAll } from '@ameen-nexus/validator';
+import { useForm } from '@ameen-nexus/validator/react';
 
 const data = { email: 'test@example.com', password: 'secret' };
 const rules = {
@@ -36,7 +36,7 @@ const rules = {
   password: 'required|min:8'
 };
 
-const { valid, errors } = validateAll(data, rules);
+const { valid, errors } = useForm(data, rules);
 ```
 
 ### React Hook Usage
